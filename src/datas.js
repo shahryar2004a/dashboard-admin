@@ -77,4 +77,40 @@ const newMembers=[
         img:'images/profile.jfif',
     },
 ]
-export  {xAxisData,newMembers}
+
+
+const transactions=[
+    {
+        id:1,
+        customer:'vahid',
+        img:'images/profile.jfif',
+        date:'12 Jun 2022',
+        amount:123,
+        status:'Declined',
+    },
+    {
+        id:2,
+        customer:'reza',
+        img:'images/profile.jfif',
+        date:'20 Sep 2024',
+        amount:123,
+        status:'Pending',
+    },
+    {
+        id:3,
+        customer:'farhad',
+        img:'images/profile.jfif',
+        date:'14 May 2023',
+        amount:123,
+        status:'Declined',
+    },
+    {
+        id:4,
+        customer:'mohammad',
+        img:'images/profile.jfif',
+        date:'12 Feb 2024',
+        amount:123,
+        status:'Approved',
+    },
+]
+export  {xAxisData,newMembers,transactions}
