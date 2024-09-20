@@ -113,4 +113,48 @@ const transactions=[
         status:'Approved',
     },
 ]
-export  {xAxisData,newMembers,transactions}
+
+
+let userRows=[
+    {
+        id:1,
+        username:'zahra bahrami',
+        avatar:'images/profile.jfif',
+        status:'active',
+        transactions:'45.78',
+        email:'zahra@gamil.com'
+    },
+    {
+        id:2,
+        username:'qadir rezaei',
+        avatar:'images/qadir.jpg',
+        status:'active',
+        transactions:'32.25',
+        email:'negar@gamil.com'
+    },
+    {
+        id:3,
+        username:'sasan moghadas',
+        avatar:'images/sasan.jpg',
+        status:'active',
+        transactions:'400.52',
+        email:'javad@gamil.com'
+    },
+    {
+        id:4,
+        username:'amir moradi',
+        avatar:'images/amir.jpg',
+        status:'active',
+        transactions:'200.14',
+        email:'vahid@gamil.com'
+    },
+    {
+        id:5,
+        username:'amin kazemi',
+        avatar:'images/amin.jpg',
+        status:'active',
+        transactions:'50.00',
+        email:'mostafa@gamil.com'
+    },
+]
+export  {xAxisData,newMembers,transactions,userRows}
