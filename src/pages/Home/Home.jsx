@@ -1,11 +1,11 @@
 import React from 'react'
+import Feature from '../../components/features/Feature'
 
 
-import  './Home.css'
 export default function Home() {
   return (
     <>
-      Home
+      <Feature/>
     </>
   )
 }
