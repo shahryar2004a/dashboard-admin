@@ -157,4 +157,33 @@ let userRows=[
         email:'mostafa@gamil.com'
     },
 ]
-export  {xAxisData,newMembers,transactions,userRows}
+
+let products=[
+    {
+        id:1,
+        title:'Asus',
+        avatar:'images/asus.jpeg',
+        price:890,
+    },
+    {
+        id:2,
+        title:'Acer',
+        avatar:'images/acer.jpg',
+        price:890,
+    },
+    {
+        id:3,
+        title:'HP',
+        avatar:'images/hp.jpg',
+        price:890,
+    },
+    {
+        id:4,
+        title:'Dell',
+        avatar:'images/dell.jpg',
+        price:890,
+    },
+
+    
+]
+export  {xAxisData,newMembers,transactions,userRows,products}
